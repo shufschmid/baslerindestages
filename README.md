@@ -1,5 +1,8 @@
 # vuedemo
 
+basics from here: https://therichpost.com/add-image-to-vue-fullcalendar-working-demo/
+
+
 ## Project setup
 ```
 npm install
