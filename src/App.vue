@@ -66,6 +66,7 @@ export default {
 function createCssClasses(item) {
   document.getElementsByClassName(item.classNames[0])[0].style.background =
     "none";
+  document.getElementsByClassName(item.classNames[0])[0].style.opacity = "100";
   document.getElementsByClassName(item.classNames[0])[0].style.backgroundImage =
     "url(" + item.Bild + ")";
 }
@@ -89,7 +90,6 @@ function createCssClasses(item) {
   border-radius:8%;
   height:auto;
   outline:none;
-  opacity:100;
 
 }
 </style>
