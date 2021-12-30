@@ -73,9 +73,6 @@ export default {
           });
         }).then(()=>{
           this.calendarOptions.events.forEach(createCssClasses)
-             
-document.getElementsByClassName('class2021-12-29')[0].style.border =
-    "10px solid green";
         })
         .catch((error) => {
           console.log(error);
@@ -118,40 +115,5 @@ function createCssClasses(item) {
 
   text-decoration: none;
 }
-.class2021-12-29 {
-  /* background-image: url("https://ci5.googleusercontent.com/proxy/8wvXqM-Tk4F7gHK1kySaupRrl0QNPjU-69YM04jtDeMJkFvU2iLmUs6SHaCUEjJ4WofWS3cCxUOmGsBcLuflfg5xIGdUp7EDQ7jDtJX5RwmiDH3FGH_DNwksOpvD3JgJL1ldAEyad_zMi3ZWHwvknhOFRcbn7g=s0-d-e1-ft#https://mcusercontent.com/c30add995be4a0a845d9e933a/images/94f1618c-e0d3-c5b2-6fa3-95f51768ee23.jpg") !important; */
 
-  background-repeat: no-repeat !important; /* Do not repeat the image */
-  background-size: cover !important;
-  background: none;
-  opacity: 100 !important;
-  border: 10px solid #feddd2;
-  border-radius: 8%;
-  height: auto;
-  outline: none;
-}
-.class2021-12-24 {
-  background-image: url("https://ci3.googleusercontent.com/proxy/nJHGKT73hLyhWq1ZduPDK596B0gk8yi5HKBpdleig4ZY-NeUKdlL1YzIVgonIDzqjibpOVbTvWidGl-3tMC78o4fji7bUC0eZoY5-EuY7iMOGpMmZLD3NnxlkWwYhFXRq3hjnxd6dXlAyu94bkYwTrSerw-c2A=s0-d-e1-ft#https://mcusercontent.com/c30add995be4a0a845d9e933a/images/ebae8fcb-a65f-5e1d-598c-4a92dc76e804.jpg") !important;
-
-  background-repeat: no-repeat !important; /* Do not repeat the image */
-  background-size: cover !important;
-  background: none;
-  opacity: 100 !important;
-  border: 10px solid #feddd2;
-  border-radius: 8%;
-  height: auto;
-  outline: none;
-}
-.class2021-12-27 {
-  background-image: url("https://ci5.googleusercontent.com/proxy/hYRVHoufYI1Qy_hMVH2WCwsFPvrnE-j6OS15st5iEUzIoyKAhjKsbyMl1-ivqEFwr3GgQLXNC2MCmT8DHBO8OSOQwJDRg62nJoivH--FJnK_TlCbo2heWf1GOXQvCDu64LOrQccVtF3F9w5FlknF_hUV_60hUA=s0-d-e1-ft#https://mcusercontent.com/c30add995be4a0a845d9e933a/images/ea69706c-230e-cf12-e8cc-bd6b143d5827.png") !important;
-
-  background-repeat: no-repeat !important; /* Do not repeat the image */
-  background-size: cover !important;
-  background: none;
-  opacity: 100 !important;
-  border: 10px solid #feddd2;
-  border-radius: 8%;
-  height: auto;
-  outline: none;
-}
 </style>
