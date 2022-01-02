@@ -54,7 +54,7 @@ export default {
           this.items = response.data.records.map((item) => {
             return {
               id: item.id,
-              style: "background-repeat: no-repeat !important;   background-size: cover !important; border: 10px solid #feddd2;  border-radius: 8%;  height: auto;  outline: none; background-image: url('" + item.fields.Bild + ")",
+              style: "top: 0px; bottom: 0px; background-repeat: no-repeat !important;   background-size: cover !important; border: 4px solid #feddd2;  border-radius: 8%;  height: auto;  outline: none; background-image: url('" + item.fields.Bild + ")",
               ...item.fields,
             };
           });
@@ -76,8 +76,7 @@ export default {
 
 </script>
 <template>
-  <div>
-    {{ items }}
+  <div style="height:800px"> 
     <calendar-view
       :show-date="showDate"
       class="theme-default holiday-us-traditional holiday-us-official"
